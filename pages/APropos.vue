@@ -3,16 +3,21 @@
     <Header />
     <!-- Section 1 -->
 
-    <div>
-      <img src="../assets/images/Rectangle198.png" alt="" />
+    <div
+      class="background2-image flex items-center justify-center place-content-center pt-24 h-64"
+    >
+      <!-- <img src="../assets/images/Rectangle198.png" alt="" /> -->
+      <h1 class="h-full items-center text-3xl font-bold text-white">
+        A Propos
+      </h1>
     </div>
 
     <!-- Section 2 -->
-    <div class="flex justify-between p-20">
+    <div class="flex flex-col md:flex-row justify-between p-14 md:p-20">
       <div
-        class="flex flex-col space-y-10 w-3/6 items-center justify-center place-content-center"
+        class="flex flex-col space-y-5 w-full md:w-3/6 items-center justify-center place-content-center"
       >
-        <p class="text-center w-[90%]">
+        <p class="text-center w-full">
           Notre plateforme en ligne vise à faciliter le processus de signalement
           d'infractions et d'incidents à la police, offrant ainsi aux clients un
           moyen simple et rapide de communiquer leurs plaintes. Grâce à une
@@ -23,7 +28,7 @@
           appropriée, en veillant à ce que les informations soient transmises de
           manière sécurisée et confidentielle au poste de police concerné.
         </p>
-        <p class="text-center w-[90%]">
+        <p class="text-center w-full">
           Notre plateforme mettra également l'accent sur la communication
           transparente et efficace entre les clients et les services de police.
           Les utilisateurs seront informés du suivi de leur plainte, des progrès
@@ -33,7 +38,7 @@
           des mises à jour importantes, favorisant ainsi une collaboration
           harmonieuse entre les parties concernées.
         </p>
-        <p class="text-center w-[90%]">
+        <p class="text-center w-full">
           En résumé, notre plateforme en ligne vise à simplifier et à
           rationaliser le processus de signalement des infractions et des
           incidents à la police. En offrant une interface conviviale, une
@@ -43,9 +48,15 @@
           communauté.
         </p>
       </div>
-      <div class="w-2/6 flexflex-col space-y-9 pt-9">
-        <img src="../assets/images/person-with-magnifying-glass.jpg" alt="" />
-        <div class="flex justify-between w-[80%]">
+      <div class="w-full md:w-2/6 flex flex-col space-y-5 pt-5 md:pt-9">
+        <img
+          class="w-full"
+          src="../assets/images/person-with-magnifying-glass.jpg"
+          alt=""
+        />
+        <div
+          class="flex justify-between place-content-center items-center w-[80%] ml-6"
+        >
           <div
             class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-red-700 bg-red-700 hover:bg-blueee hover:border-blueee"
           >
@@ -69,7 +80,7 @@
           </div>
 
           <div
-            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2  border-red-700 bg-red-700 hover:bg-blueee hover:border-blueee"
+            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-red-700 bg-red-700 hover:bg-blueee hover:border-blueee"
           >
             <svg
               class="svg1"
@@ -91,7 +102,7 @@
           </div>
 
           <div
-            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-gray-400 bg-gray-400 hover:bg-red-700 hover:border-red-700"
+            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-red-700 bg-red-700 hover:bg-blueee hover:border-blueee"
           >
             <svg
               class="svg1"
@@ -112,7 +123,7 @@
           </div>
 
           <div
-            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-gray-400 bg-gray-400 hover:bg-red-700 hover:border-red-700"
+            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-red-700 bg-red-700 hover:bg-blueee hover:border-blueee"
           >
             <svg
               class="svg1"
@@ -129,7 +140,7 @@
           </div>
 
           <div
-            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-gray-400 bg-gray-400 hover:bg-red-700 hover:border-red-700"
+            class="h-10 w-10 hover:text-white text-new rounded-full flex place-content-center justify-center items-center border-2 border-red-700 bg-red-700 hover:bg-blueee hover:border-blueee"
           >
             <svg
               class="svg1"
@@ -151,107 +162,110 @@
         </div>
       </div>
     </div>
+
     <!-- Section 3 -->
     <div
-      class="bg-blueee h-80 flex space-x-10 items-center place-content-center pl-10 pr-10"
+      class="bg-blueee flex p-6 justify-between items-center place-content-center"
     >
-      <div
-        class="h-8 w-32 flex items-center justify-center place-content-center"
-      >
-        <img class="  " src="../assets/images/Vector(2).png" alt="" />
+      <div class="h-8 w-32 flex items-center justify-center">
+        <img src="../assets/images/Vector(2).png" alt="" />
       </div>
 
       <div
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-        class="h-auto w-auto rounded-lg space-y-2 p-4 bg-white flex flex-col justify-center items-center"
+        class="space-y-10 md:space-y-0 md:flex md:justify-between md:w-[80%]"
       >
         <div
-          class="flex items-center justify-center place-content-center bg-bleuee2 rounded-full h-[50px] w-[50px]"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          class="h-auto w-auto rounded-lg p-4 bg-white flex flex-col justify-center items-center md:w-[300px]"
         >
-          <img
-            class="h-[30px] w-[30px]"
-            src="../assets/images/icon-park-outline_surveillance-cameras-two.png"
-            alt=""
-          />
+          <div
+            class="flex items-center justify-center place-content-center bg-bleuee2 rounded-full h-[40px] w-[40px] md:h-[50px] md:w-[50px]"
+          >
+            <img
+              class="h-[24px] w-[24px] md:h-[30px] md:w-[30px]"
+              src="../assets/images/icon-park-outline_surveillance-cameras-two.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <h1 class="text-lg md:text-xl font-bold">Formations</h1>
+          </div>
+          <div>
+            <h2 class="text-center text-sm md:text-base">
+              Notre programme de formation est conçu pour vous fournir les
+              compétences nécessaires dans votre domaine d'intérêt.
+            </h2>
+          </div>
         </div>
-        <div>
-          <h1 class="text-xl font-bold">Formations</h1>
-        </div>
-        <div>
-          <h2 class="text-center text-base">
-            Notre programme de formation est conçu pour vous fournir les
-            compétences nécessaires dans votre domaine d'intérêt.
-          </h2>
-        </div>
-      </div>
-      <div
-        data-aos="zoom-in"
-        data-aos-duration="3000"
-        class="h-auto w-auto rounded-lg space-y-2 p-4 bg-white flex flex-col justify-center items-center"
-      >
+
         <div
-          class="flex items-center justify-center place-content-center bg-bleuee2 rounded-full h-[50px] w-[50px]"
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          class="h-auto w-auto rounded-lg space-y-2 p-4 bg-white flex flex-col justify-center items-center md:w-[300px]"
         >
-          <img
-            class="h-[30px] w-[30px]"
-            src="../assets/images/Vector.png"
-            alt=""
-          />
+          <div
+            class="flex items-center justify-center place-content-center bg-bleuee2 rounded-full h-[40px] w-[40px] md:h-[50px] md:w-[50px]"
+          >
+            <img
+              class="h-[24px] w-[24px] md:h-[30px] md:w-[30px]"
+              src="../assets/images/Vector.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <h1 class="text-lg md:text-xl font-bold">Surveillance</h1>
+          </div>
+          <div>
+            <h2 class="text-center text-sm md:text-base">
+              Que ce soit pour des raisons personnelles ou professionnelles,
+              notre équipe expérimentée utilise des techniques de pointe pour
+              recueillir des informations précieuses.
+            </h2>
+          </div>
         </div>
-        <div>
-          <h1 class="text-xl font-bold">Surveillance</h1>
-        </div>
-        <div>
-          <h2 class="text-center text-base">
-            Que ce soit pour des raisons personnelles ou professionnelles, notre
-            équipe expérimentée utilise des techniques de pointe pour recueillir
-            des informations précieuses .
-          </h2>
+
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          class="h-auto w-auto rounded-lg space-y-2 p-4 bg-white flex flex-col justify-center items-center md:w-[300px]"
+        >
+          <div
+            class="flex items-center justify-center place-content-center bg-bleuee2 rounded-full h-[40px] w-[40px] md:h-[50px] md:w-[50px]"
+          >
+            <img
+              class="h-[24px] w-[24px] md:h-[30px] md:w-[30px]"
+              src="../assets/images/medical-icon_i-health-education.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <h1 class="text-lg md:text-xl font-bold">Enquêtes</h1>
+          </div>
+          <div>
+            <h2 class="text-center text-sm md:text-base">
+              Nos enquêteurs expérimentés travaillent en étroite collaboration
+              avec les autorités compétentes pour résoudre des affaires
+              criminelles complexes.
+            </h2>
+          </div>
         </div>
       </div>
 
-      <div
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-        class="h-auto w-auto rounded-lg space-y-2 p-4 bg-white flex flex-col justify-center items-center"
-      >
-        <div
-          class="flex items-center justify-center place-content-center bg-bleuee2 rounded-full h-[50px] w-[50px]"
-        >
-          <img
-            class="h-[30px] w-[30px]"
-            src="../assets/images/medical-icon_i-health-education.png"
-            alt=""
-          />
-        </div>
-        <div>
-          <h1 class="text-xl font-bold">Enquêtes</h1>
-        </div>
-        <div>
-          <h2 class="text-center text-base">
-            Nos enquêteurs expérimentés travaillent en étroite collaboration
-            avec les autorités compétentes pour résoudre des affaires
-            criminelles complexes.
-          </h2>
-        </div>
-      </div>
-
-      <div
-        class="h-8 w-32 flex items-center justify-center place-content-center"
-      >
-        <img class="  " src="../assets/images/Vector(3).png" alt="" />
+      <div class="h-8 w-32 flex items-center justify-center">
+        <img src="../assets/images/Vector(3).png" alt="" />
       </div>
     </div>
-
     <!-- Section 6 Formulaire -->
-    <div class="bg-white pt-16 pb-16">
+    <div class="bg-white pb-16 pt-6 p-10 md:p-0 md:pb-16 md:pt-6">
       <div
         class="flex flex-col justify-center items-center place-content-center"
       >
-        <div class="space-y-5 pb-4 w-[1000px]">
-          <h1 class="text-4xl font-bold text-bleuee3">Contactez-nous</h1>
-          <p class="text-gris2">
+        <div class="space-y-5 pb-4 max-w-[1000px] px-6">
+          <h1 class="text-4xl font-bold text-bleuee3 text-center">
+            Contactez-nous
+          </h1>
+          <p class="text-gris2 text-center">
             Nous serions ravis de pouvoir vous aider davantage. Veuillez remplir
             ce formulaire pour nous contacter.
           </p>
@@ -259,25 +273,23 @@
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
-          class="flex justify-center"
+          class="flex flex-col md:flex-row justify-center"
         >
-          <div class="h[670px] w-[400px]">
+          <div class="w-full md:w-[400px]">
             <div
               class="shadow-2xl border-2 rounded-xl border-slate-100 shadow-cyan-300"
             >
               <form class="max-w-md mx-auto mt-4 p-6 bg-white rounded-lg">
                 <div class="mb-4">
-                  <!-- <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Nom</label> -->
                   <input
                     v-model="name"
                     class="bg-input shadow appearance-none border rounded w-full py-2 px-5 text-sm text-bleuee3 leading-tight focus:outline-none focus:shadow-outline"
                     id="name"
                     type="text"
-                    placeholder="Name*"
+                    placeholder="Nom*"
                   />
                 </div>
                 <div class="mb-4">
-                  <!-- <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label> -->
                   <input
                     v-model="email"
                     class="bg-input shadow appearance-none border rounded w-full py-2 px-5 text-sm text-bleuee3 leading-tight focus:outline-none focus:shadow-outline"
@@ -287,7 +299,6 @@
                   />
                 </div>
                 <div class="mb-4">
-                  <!-- <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label> -->
                   <textarea
                     v-model="message"
                     class="shadow appearance-none border bg-input rounded w-full py-2 px-5 text-sm text-bleuee3 leading-tight focus:outline-none focus:shadow-outline"
@@ -296,7 +307,7 @@
                     placeholder="Enter Your Message Here*"
                   ></textarea>
                 </div>
-                <div class="flex place-content-end">
+                <div class="flex justify-end">
                   <button
                     @click="submitForm"
                     class="bg-degradé1 w-32 font-normal text-xs hover:bg-blue-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
@@ -311,9 +322,9 @@
           <div
             data-aos="fade-left"
             data-aos-duration="2000"
-            class="bg-gradient-to-r from-degradé1 to-degradé2 mt-6 w[410px] h-[285px]"
+            class="bg-gradient-to-r from-degradé1 to-degradé2 mt-6 w-full md:w-[410px] flex p-4 place-content-center items-center h-[285px]"
           >
-            <p class="w-[600px] text-white text-sm pt-20 pb-20 pl-10 pr-10">
+            <p class="w-full text-white text-center text-sm">
               Le projet consiste à créer une plateforme en ligne pour permettre
               aux clients de signaler des infractions ou des incidents à la
               police. La plateforme doit permettre aux clients de soumettre
@@ -326,17 +337,16 @@
         </div>
       </div>
     </div>
-    
-    <Carousel />
+
+    <!-- <Carousel /> -->
 
     <Footer />
   </div>
 </template>
 
 <script>
-// import AOS from 'aos'
-// import 'aos/dist/aos.css'
-import aosMixin from "../.nuxt/mixins/aos";
+
+import aosMixin from "../mixins/aos";
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import Carousel from "../components/Carousel.vue";
@@ -376,4 +386,13 @@ export default {
 @import "tailwindcss/utilities";
 
 /* Ajoutez une classe personnalisée pour votre composant */
+.background2-image {
+  /* Ajoutez la classe utilitaire de Tailwind CSS pour définir l'image en arrière-plan */
+  background-image: url("../assets/images/Rectangle198.png");
+  /* opacity: 0.9; */
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Autres styles personnalisés pour votre composant */
+}
 </style>
